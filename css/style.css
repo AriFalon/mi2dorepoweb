@@ -1,0 +1,212 @@
+
+
+
+#container {
+    display: grid;
+    width: 100%;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 30% 20% 20% 20%;
+}
+
+
+
+/* HEADER MENU */
+
+#item1 {
+    background-color: #aa1c9e;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    min-height: 70%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+.logo img {
+    height: 50px;
+
+
+}
+
+
+.nombreorganizacion {
+    color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+    margin-left: 20%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+#item2 {
+    background-color: hsl(288, 87%, 59%);
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    flex-wrap: wrap;
+}
+
+.menu nav {
+    padding: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #333;
+}
+
+nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+nav li a:hover {
+    background: tomato;
+    color: white;
+}
+
+
+/* @media-query */
+
+@media screen and (min-width: 480px) {
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+/*PRESENTACION*/
+
+#item3 {
+    background-color: #909c88;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    flex-wrap: wrap;
+}
+
+.presentacion {
+    background-image: url(../imagenes/niñospresentacion.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+/* MAIN*/
+#item4 {
+    background-color: #3b9174;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    flex-wrap: wrap
+}
+
+.main {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+/*IMAGEN MAIN*/
+
+#item5 {
+    background-color: #BEE3E5;
+    grid-row: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.imagen {
+    background-image: url(../imagenes/donations.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/*DESCARGA DE APLICACION MOVIL*/
+
+#item6 {
+    background-color: #47BD99;
+    grid-row: 4;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.descargapp {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#item7 {
+
+    background-color: hsl(288, 86%, 28%);
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+#item8 {
+
+    background-color: hsl(288, 87%, 59%);
+    grid-row: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}

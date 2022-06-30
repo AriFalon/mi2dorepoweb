@@ -1,0 +1,46 @@
+.rojo {
+    background-color: red;
+    height: 100px;
+}
+
+.violeta {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.gris {
+    background-color: gray;
+    height: 200px;
+}
+.verde {
+    background-color: greenyellow;
+    height: 200px;
+}
+
+.azul {
+    background-color: rgb(78, 47, 255);
+    height: 200px;
+}
+
+.presentacion {
+    background-image: url(../imagenes/niñospresentacion.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.carrousel {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
